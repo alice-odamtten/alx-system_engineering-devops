@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-#script fixes issues with the current configuration of the designated server
+#A bash script 
 sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx restart
+sudo pkill -o nginx
