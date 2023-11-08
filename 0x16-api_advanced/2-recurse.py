@@ -4,7 +4,7 @@
 import requests
 
 
-def recurse(subreddit, hot_list=[], after=""):
+def recurse(subreddit, hot_list=[], after=None):
     """
     Recursively retrieve and append the titles of the top hot posts for
     a given subreddit using the Reddit API.
